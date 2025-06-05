@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <!-- ... -->
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+  <!-- Header (usando partial si es posible) -->
+  <header>...</header>
+
+  <main class="menu-page">
+    <h1>Nuestro Menú</h1>
+    
+    <!-- Filtros por Categoría -->
+    <div class="category-filters">
+      <button data-category="all">Todo</button>
+      <button data-category="Desayunos">Desayunos</button>
+      <button data-category="Entradas">Entradas</button>
+      <!-- ... -->
+    </div>
+
+    <!-- Filtros por Etiqueta -->
+    <div class="tag-filters">
+      <button data-tag="vegetariano">Vegetariano</button>
+      <button data-tag="sin gluten">Sin Gluten</button>
+      <button data-tag="picante">Picante</button>
+    </div>
+
+    <!-- Contenedor del Menú -->
+    <div id="menu-container">
+      <!-- Aquí se inyectará el menú desde JavaScript usando menu.json -->
+    </div>
+  </main>
+
+  <!-- Footer (usando partial) -->
+  <footer>...</footer>
+
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/pages/menu.js"></script>
+</body>
+</html>9
