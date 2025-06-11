@@ -1,0 +1,34 @@
+[
+  {
+    "id": "home",
+    "label": "Inicio",
+    "url": "/"
+  },
+  {
+    "id": "about",
+    "label": "Acerca de",
+    "url": "/about"
+  },
+  {
+    "id": "services",
+    "label": "Servicios",
+    "url": "/services",
+    "submenu": [
+      {
+        "id": "web-dev",
+        "label": "Desarrollo Web",
+        "url": "/services/web-dev"
+      },
+      {
+        "id": "mobile-dev",
+        "label": "Desarrollo Móvil",
+        "url": "/services/mobile-dev"
+      }
+    ]
+  },
+  {
+    "id": "contact",
+    "label": "Contacto",
+    "url": "/contact"
+  }
+]

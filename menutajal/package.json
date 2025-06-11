@@ -1,0 +1,14 @@
+{
+  "name": "menutajal",
+  "version": "1.0.0",
+  "description": "Proyecto de menú web/aplicación.",
+  "main": "src/menu/Menu.js",
+  "scripts": {
+    "start": "echo 'Define tu comando de inicio aquí (ej. npm run dev)'",
+    "build": "echo 'Define tu comando de construcción aquí (ej. npm run build)'",
+    "test": "echo 'Define tu comando de pruebas aquí'"
+  },
+  "keywords": ["menu", "web", "component"],
+  "author": "",
+  "license": "ISC"
+}
