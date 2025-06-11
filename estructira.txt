@@ -1,9 +1,14 @@
-tu-sitio/
-├── index.html              (Contenido de TAJAL_index.html)
-├── menu.html               (Contenido de menu_index.html)
-├── css/
-│   ├── styles.css          (Estilos unificados)
-│   └── tailwind.css        (Tailwind personalizado)
-├── js/
-│   └── scripts.js          (JS unificado)
-└── assets/                 (Imágenes/icons)
+menutajal/
+├── .github/
+├── src/
+│   ├── components/
+│   ├── assets/
+│   ├── styles/
+│   ├── data/
+│   └── menu/
+├── public/
+├── docs/
+├── tests/
+├── .gitignore
+├── package.json
+└── README.md
